@@ -1,0 +1,53 @@
+{
+  "type": "SmartContractTemplate",
+  "creator": "BlockFabric",
+  "name": "ERC721 NFT Contract",
+  "description": "ERC721 is an open standard for creating non-fungible tokens (NFTs) on the blockchain, allowing for the ownership and transfer of unique assets.",
+  "inputs": [
+    {
+      "key": "tokenName",
+      "label": "Token or Collection Name",
+      "description": "Enter the name of the NFT collection",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "key": "symbol",
+      "label": "Symbol",
+      "description": "Enter the symbol of the NFT collection",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true
+    }
+  ],
+  "constructorInputs": [
+    {
+      "key": "baseTokenURI",
+      "label": "Base Token URI",
+      "description": "Enter th path for the base token URI",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true,
+      "inputType": "StorageFolderUri"
+    }
+  ],
+  "contractFile": "ERC721Contract.sol",
+  "dependencies": [
+    "deps/@openzeppelin/contracts/access/Ownable.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/ERC721.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/IERC721.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+    "deps/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+    "deps/@openzeppelin/contracts/utils/Address.sol",
+    "deps/@openzeppelin/contracts/utils/Context.sol",
+    "deps/@openzeppelin/contracts/utils/Counters.sol",
+    "deps/@openzeppelin/contracts/utils/Strings.sol",
+    "deps/@openzeppelin/contracts/utils/introspection/ERC165.sol",
+    "deps/@openzeppelin/contracts/utils/introspection/IERC165.sol",
+    "deps/@openzeppelin/contracts/utils/math/Math.sol",
+    "deps/@openzeppelin/contracts/utils/math/SignedMath.sol"
+  ]
+}

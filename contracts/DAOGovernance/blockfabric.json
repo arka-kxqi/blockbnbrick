@@ -1,0 +1,23 @@
+{
+  "type": "SmartContractTemplate",
+  "creator": "BlockFabric",
+  "name": "DAO Governance Contract",
+  "description": "A DAO (Decentralized Autonomous Organization) Governance Contract allows for decentralized decision-making on the blockchain. It includes features like proposal creation, voting mechanisms, and execution of decisions based on the outcome of votes.",
+  "inputs": [
+    {
+      "key": "_governanceToken",
+      "label": "Governance Token",
+      "description": "Enter the address of the ERC20 governance token.",
+      "dataType": "string",
+      "defaultValue": "",
+      "required": true
+    }
+  ],
+  "contractFile": "DAOGovernanceContract.sol",
+  "dependencies": [
+    "deps/@openzeppelin/contracts/token/ERC20/IERC20.sol",
+    "deps/@openzeppelin/contracts/access/Ownable.sol",
+    "deps/@openzeppelin/contracts/utils/Counters.sol",
+    "deps/@openzeppelin/contracts/utils/structs/EnumerableSet.sol"
+  ]
+}

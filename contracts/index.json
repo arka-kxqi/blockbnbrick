@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "folder": "/contracts/ERC20",
+        "type": "SmartContractTemplate",
+        "creator": "BlockFabric",
+        "name": "ERC20 Token Contract",
+        "description": "ERC20 is an standard for fungible assets, outlining a common list of rules for tokens to follow, enabling interoperability across different interfaces and dApps."
+    },
+    {
+        "id": "2",
+        "folder": "/contracts/ERC721",
+        "type": "SmartContractTemplate",
+        "creator": "BlockFabric",
+        "name": "ERC721 NFT Contract",
+        "description": "ERC721 is an open standard for creating non-fungible tokens (NFTs) on the blockchain, allowing for the ownership and transfer of unique assets."
+    },
+    {
+        "id": "3",
+        "type": "SmartContractTemplate",
+        "folder": "/contracts/CrowdSale",
+        "creator": "BlockFabric",
+        "name": "Crowd Sale Contract",
+        "description": "A Crowd Sale Contract facilitates the raising of funds by selling a ERC20 token to investors at a specific price, in a defined timeframe, directly on the blockchain."
+    },
+    {
+        "id": "4",
+        "type": "SmartContractTemplate",
+        "folder": "/contracts/OneTimeSubscription",
+        "creator": "BlockFabric",
+        "name": "One Time Subscription Contract",
+        "description": "A One Time Subscription Contract manages product subscriptions on the blockchain. It allows users to purchase products once, and owners to add products and set prices."
+    },
+    {
+        "id": "5",
+        "type": "SmartContractTemplate",
+        "folder": "/contracts/DAOGovernance",
+        "creator": "BlockFabric",
+        "name": "DAO Governance Contract",
+        "description": "A DAO (Decentralized Autonomous Organization) Governance Contract allows for decentralized decision-making on the blockchain. It includes features like proposal creation, voting mechanisms, and execution of decisions based on the outcome of votes."
+    }
+]
